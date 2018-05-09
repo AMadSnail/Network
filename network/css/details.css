@@ -1,0 +1,305 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{list-style: none;}
+a{text-decoration: none;color:black;}
+input,from{
+	border: 0;
+}
+
+#header{
+	height: 35px;
+	width: 1252px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	line-height: 35px;
+	font-size: 14px;
+	color: #737373;
+}
+#header ul{
+	float: left;
+}
+#header ul li{
+	float: left;
+	padding: 0 5px;
+
+}
+#header ul p{
+	float: left;
+}
+#header ul:nth-child(2){
+	float: right;
+}
+#header ul .iconfont{
+	margin: 0 5px 0 5px;
+	box-sizing: border-box;
+	color: #ffb680;
+}
+
+
+#head{
+	width:1252px ;
+	height: 120px;
+	margin:0 auto;
+}
+#head h1{
+	width: 236px;
+	height: 120px;
+	text-indent: -9999px;
+	background: url('../img/head1.jpg') no-repeat center center;
+	float: left;
+}
+#head p{
+	width: 150px;
+	height: 38px;
+	background: url('../img/head2.jpg') no-repeat center center;
+	border-left: 1px solid #ccc;
+	float: left;
+	margin-top: 40px;
+
+}
+#head ul{
+	float: left;
+	margin-top: 40px;
+	width: 320px;
+	margin-left: 110px;
+	box-sizing: border-box;
+}
+#head .ul2{
+	float: right;
+}
+#head .ul2 li{
+	padding: 0 10px;
+	border-right: 1px solid #ccc;
+}
+#head .ul2 li .iconfont{
+	margin: 0 3px;
+	color: #ffb680;
+}
+#head .ul2 li:nth-child(2){
+	border: 0;
+}
+#head ul #txt{
+	width: 238px;
+	height: 34px;
+	float: left;
+	border:1px solid #ff6a00;
+
+}
+#head ul #sub{
+	width: 80px;
+	height: 36px;
+	float: left;
+	background: #ff6a00;
+	color: white;
+}
+#head ul li{
+	float: left;
+	padding: 0 3px 0 3px;
+}
+
+
+
+
+
+#nav{
+	height: 42px;
+	width: 1252px;
+	margin: 0 auto;
+	background: #fe7a24;
+	line-height: 42px;
+}
+#nav ul li{
+	float: left;
+	padding: 0 24px;
+	color: white;
+
+}
+#nav ul li:nth-child(1){
+	width: 210px;
+}
+#nav ul li .icon-down{
+	float: right;
+	margin-right: 20px;
+	color: white;
+}
+
+
+
+#wrapper-mian{
+	width: 1252px;
+}
+#mian{
+	width: 1252px;
+	margin: 0 auto;
+}
+.sy{
+	width: 1252px;
+	height: 40px;
+	line-height: 40px;
+}
+#mian>.sy>h4{
+	float: left;
+}
+#mian>.sy>p{
+	float: left;
+	color: #737373;
+}
+#mian>.sy>span{
+	float:left;
+	color: #ff6a00;
+}
+
+
+
+
+
+
+#box{
+	height: 620px;
+	border: 1px solid #ccc;
+}
+#list{
+	height: 620px;
+	width: 580px;
+	float: left;
+}
+#boxImg1{
+	width: 430px;
+	height: 470px;
+	position: relative;
+	border:1px solid red;
+	 margin: 32px 42px 20px; 
+}
+.middle{
+	/*margin: 15px 40px;*/
+}
+#boxImg2{
+	margin-left: 56px;
+}
+.small {
+	margin: 0 10px;
+	width: 68px;
+	height: 68px;
+	border: 1px solid #fff;
+}
+.small:hover {
+	border-color: #000;
+}
+
+#mask{
+	width: 215px;
+	height: 235px;
+	border: 1px solid red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	border:1px solid red;
+}
+#cont{
+	width: 430px;
+	height: 470px;
+	border: 1px solid red;
+	position: absolute;
+	top: 270px;
+	left: 560px;
+	z-index: 2;
+	overflow: hidden;
+	display: none;
+}
+.miaale{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+#dast{
+	width: 564px;
+	height: 620px;
+	margin-left:26px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#dast h3{
+	height: 76px;
+	line-height: 76px;
+}
+#dast>.u1{
+	height: 286px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+}
+
+#dast .u1 li{
+	float: left;
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+
+}
+#dast .u1 li span{
+	float: left;
+	margin-right: 36px;
+}
+#dast .u1 li p{
+	float: left;
+}
+#dast .u1 li .p1{
+	color: #ff6a00;
+}
+
+#dast .u2{
+	margin-top: 20px;
+}
+#dast>.u2>li{
+	/* float: left; */
+	width: 564px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+
+}
+#dast .u2 li span{
+	float: left;
+}
+#dast .u2 li p{
+	float: left;
+}
+#dast .u2 div{
+	width: 564px;
+	height: 42px;
+	background: #f7f7f7;
+	line-height: 42px;
+	margin: 5px 0;
+}
+#dast>.u2>div>ul{
+	width: 564px;
+	height: 42px;
+}
+#dast>.u2>#nct>ul>li{
+	float: left;
+}
+#dast>.u2>button{
+	width: 160px;
+	height: 44px;
+	line-height: 44px;
+	color: white;
+	background: #ff6a00;
+	float: left;
+	border: 0;
+	margin-top: 20px;
+}
+#dast>.u2>.button{
+	background: white;
+	color: black;
+}
